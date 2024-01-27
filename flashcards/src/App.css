@@ -18,6 +18,13 @@ body {
   justify-content: center;
   display: flex;
 }
+.footer{
+  border: #c4c72d;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 40px;
+}
 .flashcards {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;

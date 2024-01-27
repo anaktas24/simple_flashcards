@@ -90,7 +90,7 @@ function FlashCards() {
 
 function Footer(){
   return(
-    null
+    <div className='footer'>Dont hover over the Flash</div>
   )
 }
 
