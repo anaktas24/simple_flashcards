@@ -38,10 +38,22 @@ const questions = [
 function App() {
   return (
     <>
+      <Title/>
       <FlashCards/>
+      <Footer/>
     </>
   )
 }
+
+function Title(){
+  return(
+    <div>
+      <h1 className='title'>Flashcards</h1>
+    </div>
+  )
+}
+
+
 
 
 function FlashCards() {
@@ -66,5 +78,11 @@ function FlashCards() {
       ))}
     </div>
   )}
+
+function Footer(){
+  return(
+    null
+  )
+}
 
 export default App

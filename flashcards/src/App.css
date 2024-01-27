@@ -2,6 +2,12 @@
   box-sizing: border-box;
 }
 
+.title{
+  border: #c4c72d;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
 body {
   font-family: sans-serif;
   padding: 20px;
