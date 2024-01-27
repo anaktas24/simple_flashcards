@@ -12,7 +12,12 @@ body {
   font-family: sans-serif;
   padding: 20px;
 }
-
+.cards{
+  border: #c4c72d;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
 .flashcards {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
