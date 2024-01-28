@@ -46,10 +46,10 @@ function App() {
 }
 
 function Title(){
-  const [onClick, setOnClick] = useState(false)
+  const [onClick, setOnClick] = useState()
 
   function handleClick() {
-    setOnClick({color : blue});
+    setOnClick({});
   }
 
   return(
