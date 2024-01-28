@@ -46,14 +46,18 @@ function App() {
 }
 
 function Title(){
-  const [onHover, setOnHover] = useState(false)
+  const [onClick, setOnClick] = useState(false)
+
+  function handleClick() {
+    setOnClick({color : blue});
+  }
+
   return(
     <div>
       <h1 className='title'
-        onMouseEnter={()=> setOnHover(true)}
-        onMouseLeave={()=> setOnHover(false)}
+        onClick={()=> handleClick()}
         >Flash</h1>
-    {onHover && (
+    {onClick && (
       <div className='cards'>
         <h1>cards</h1>
       </div>
